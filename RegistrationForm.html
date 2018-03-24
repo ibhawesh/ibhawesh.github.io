@@ -1,0 +1,154 @@
+<DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+
+
+
+
+ <title>siemalacrity</title>
+   <link rel="stylesheet"  href="css/eventsmodal.css">
+   <link rel="stylesheet"  href="css/in/bootstrap.css">
+   <link rel="stylesheet"  href="css/in/mystyle.css">
+
+
+
+<!--<script>
+function validateForm() {
+    var fname = document.forms["Registration-form"]["fname"].value;
+    if (fname == "") {
+        alert("Please enter your First Name");
+        return false;
+    }
+    var lname = document.forms["Registration-form"] ["lname"].value
+    if (lname == "") {
+        alert("Please enter your Last Name");
+        return false;
+    }
+
+    var contact = document.forms["Registration-form"] ["contact"].value
+    if (contact == "") {
+        alert("Please enter your contact number");
+        return false;
+    }
+
+    var email = document.forms["Registration-form"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+        return 1;
+    }
+
+}
+</script>-->
+
+</head>
+<body>
+<div class="container-fluid top_bar">
+	<div class="container">
+		<div class= "row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4 text-right contact_info"><span class="glyphicon glyphicon-signal" style="padding-right:1px"></span>
+			www.siemalacrity.in
+		</div>
+		</div>
+  </div>
+
+</div><!--end of container fluid-->
+<div class="container">
+		<div class= "row">
+		<div class="col-sm-4 my_menu"><img class="img-responsive" src="images/logo.png" alt="slider"></div>
+		<div class="col-sm-4 "></div>
+		<div class="col-sm-4"></div>
+		</row>
+</div><!--end of container-->
+
+<div class="container">
+	<div class="row">
+	<div class="column-sm-4" ></div>
+	<div class ="column-sm-4">
+	<div class="container">
+		<div class="panel panel-default my_menu">
+		 <div class="panel-heading">
+ 			 <h3 class="panel-title">PARTICIPANT REGISTRATION</h3>
+		 </div>
+ 			 <div class="panel-body">
+
+			<form class="form-horizontal my_menu contact-form" action="Event.html" id="Registration-form" name="Registration-form"  >
+				<div class="form-group">
+					  <label for="First Name" class="col-sm-2 control-label">First Name:</label>
+					  <div class="col-sm-10">
+					  	<input type="text" class="form-control" name="fname" required="required" >
+					  </div>
+				</div>
+
+				<div class="form-group">
+					  <label for="Last Name" class="col-sm-2 control-label">Last Name:</label>
+					  <div class="col-sm-10">
+					  	<input type="text" class="form-control required" name="lname" required="required">
+					  </div>
+				</div>
+
+				<div class="form-group">
+					  <label for="Contact No." class="col-sm-2 control-label">Contact No:</label>
+					  <div class="col-sm-10">
+				  		<input type="tel" class="form-control required" pattern="^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$" placeholder="    eg. +918768712345"  name="contact" required="required">
+				  		
+				 	 </div>
+				</div>
+
+				
+				  <div class="form-group">
+   					 <label for="gmail" class="col-sm-2 control-label required email">Email Id</label>
+ 						<div class="col-sm-10">
+ 						  <div class="input-group input-group-sm">
+ 							    <span class="input-group-addon">@</span>
+  								  <input type="email" required="required" class="form-control" placeholder="">
+							  </div>
+ 						 </div>
+ 				 </div>
+
+				<div class="form-group">
+				 	 <label for="Contact No." class="col-sm-2 control-label">College/School:</label>
+				 	 <div class="col-sm-10">
+				 	 	<input type="text" class="form-control required" required="required" name="college" required="required">
+					  </div>
+				</div>
+				 <div  style="overflow:hidden;text-align:right;">
+   				 <div class="form-group">
+   					 <div class="col-sm-offset-2 col-sm-10">
+     					<a href="Event.html"> <button  class="btn btn-success btn-sm">Select Events</button></a>
+     					
+     					
+    				</div>
+ 				 </div>
+ 			 </div>
+
+ 			</form>
+    
+ >
+   
+			</div><!--end of pannel body-->
+	   	 </div><!--end of panel panel-default inside column 2 -->
+	 	 </div><!--end of container inside column 2-->
+		</div><!--end of second column 2-->
+   	 <div class="column-sm-4" ></div>
+
+  </div><!--end of row-->
+</div><!--end of container-->
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>  
+
+</body>
+</html>
